@@ -1,0 +1,30 @@
+.column img{
+  max-width: 90%;
+  max-height: auto;
+}
+
+.column{
+  /*float: left;*/
+  max-width: 80%;
+  border-width: 1%;
+  margin: auto;
+  margin-bottom: 5%;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+}
+
+#animal1{
+  background-color: aqua;
+}
+
+#animal2{
+  background-color:aquamarine;
+}
+
+#animal3{
+  background-color:bisque;
+}
