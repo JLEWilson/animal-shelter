@@ -11,10 +11,21 @@
   margin-bottom: 5%;
   padding: 3%;
   box-sizing: border-box;
+  border-radius: 25px;
+  border-style: double none;
+  border-color: white;
+  box-shadow: 8px 5px 8px rgba(240, 152, 130, 0.9);
+}
+
+.column p{
+  max-width: 80%;
+  margin: auto;
 }
 
 body{
+  background-color: rgb(240, 209, 202);
   text-align: center;
+  font-family: 'El Messiri', sans-serif;
 }
 
 #animal1{
@@ -27,4 +38,17 @@ body{
 
 #animal3{
   background-color:bisque;
+}
+h2{
+  font-weight: 700;
+}
+
+.intro h2{
+  font-weight: 300;
+}
+
+.intro {
+  max-width: 85%;
+  margin: auto;
+  padding-bottom: 30px;
 }
